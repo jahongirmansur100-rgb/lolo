@@ -1,0 +1,124 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.continer{
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    
+}
+
+.hero{
+    padding: 50px 0; 
+}
+.hero .continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.btn1{background-color: black;
+        width: 156px;
+        height: 41px;
+        color: white;
+        border-radius: 6px;
+}
+h1{
+    font-size: 56px;
+    
+    
+}
+.btn2{
+    width: 168px;
+    height: 59px;
+    background-color: #1AAB7B;
+    border-radius: 6px;
+    color: white;
+    border-color: white;
+    margin: 40px;
+}
+.card{
+    width: 324px;
+    height: 358px;
+    padding: 20px;
+    background-color: #F2F4F6;
+    border-radius: 6px;
+    border: solid 2px  black;
+    text-align: center;
+    align-items: center;
+}
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.card:hover{
+    background-color: #1AAB7B ;
+}
+.How{
+    text-align: center;
+    padding: 70px 0;
+}
+.hero2{
+    background-color: whitesmoke;
+}
+
+p{
+    font-size: 23px;
+}
+h2{
+    padding: 30px;
+}
+.hero3{
+    background-color: #0EB4C1;
+    padding: 156px 176px;
+}
+.hero2{
+    padding: 0 0 100px;
+}
+.ota{
+    background-color: #FFFFFF;
+    flex-wrap: wrap;
+    
+    width: 540px;
+    height: 345px;
+    
+}
+input{
+    width: 460px;
+    height: 40px;
+    border-radius: 10px;
+}
+.doda{
+    display: flex;
+    gap: 108px;
+    
+}
+button{
+    width: 460px;
+    height: 40px;
+    background-color: #38CC8B;
+    box-shadow: 0px -4px 0px 0px #00000017 inset;
+
+
+}
